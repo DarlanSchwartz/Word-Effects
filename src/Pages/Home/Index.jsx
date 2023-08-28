@@ -2,6 +2,7 @@ import React from 'react'
 import { styled } from 'styled-components'
 import TypewriterEffect from './Components/TypewriterEffect';
 import HackerEffect from './Components/HackerEffect';
+import LanternEffect from './Components/LanternEffect';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <PageContent>
         <TypewriterEffect/>
         <HackerEffect/>
+        <LanternEffect/>
       </PageContent>
     </Page>
   )
