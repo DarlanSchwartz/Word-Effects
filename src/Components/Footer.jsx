@@ -4,7 +4,7 @@ import { styled } from 'styled-components';
 export default function Footer() {
   return (
     <SCFooter>
-        <a href="https://github.com/DarlanSchwartz/Word-Effects">Github repository</a>
+        <a href="https://github.com/DarlanSchwartz/Word-Effects" target='_blank'>Github repository</a>
     </SCFooter>
   )
 }
