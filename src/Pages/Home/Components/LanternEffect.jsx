@@ -5,8 +5,6 @@ export default function LanternEffect() {
   const holderRef = useRef();
   const frontsideRef = useRef();
   useEffect(() => {
-
-
     holderRef?.current.addEventListener('mousemove', (event) => {
       let x = event.pageX - holderRef.current.offsetLeft + "px";
       let y = event.pageY - holderRef.current.offsetTop + "px";
