@@ -7,6 +7,7 @@ import CurvedText from './Components/CurvedEffect';
 import SlicedEffect from './Components/SlicedEffect';
 import HoverFillEffect from './Components/HoverFillEffect';
 import HomeTitle from '../../Components/HomeTitle';
+import AAAShadow from './Components/AAAShadow';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <LanternEffect/>
         <SlicedEffect/>
         <HoverFillEffect/>
+        <AAAShadow/>
         {/* <CurvedText/> */}
       </PageContent>
     </Page>

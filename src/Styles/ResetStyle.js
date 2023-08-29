@@ -64,7 +64,6 @@ html, body, span, applet, object, iframe,
     }
 
     * {
-        font-family:sans-serif;
         transition: all 200ms;
         box-sizing: border-box;
     }
